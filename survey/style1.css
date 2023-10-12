@@ -1,0 +1,81 @@
+/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #77b3d3;
+  margin: 0;
+}
+
+.form-container {
+  background-color: #7191b5;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #5b8bb5;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #8096cf;
+  border-radius: 5px;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+}
+
+.form-buttons {
+  text-align: center;
+}
+
+.form-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+  background-color: #565ecf;
+  max-width: 400px;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
